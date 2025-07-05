@@ -37,7 +37,7 @@
   conda install pandas
   conda install seaborn
   ```
-### Answer for Q2: B and C
+### Answer for Q2: B
 
 ### Q3: Which of the following is not a valid git command?
 
