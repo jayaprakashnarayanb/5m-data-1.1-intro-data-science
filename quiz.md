@@ -7,6 +7,8 @@
 - C: Model calibration
 - D: Deployment
 
+### Answer for Q1: D - Deployment
+
 ### Q2: Which of the following is not a valid command to activate a conda environment (with the name `myenv`) and install packages (`pandas, seaborn`) in it?
 
 - A:
@@ -35,6 +37,7 @@
   conda install pandas
   conda install seaborn
   ```
+### Answer for Q2: B and C
 
 ### Q3: Which of the following is not a valid git command?
 
@@ -62,16 +65,18 @@
   git access
   ```
 
+### Answer for Q3: D
 ### Q4: What is Github?
 
 - A. A programming language
 - B. A cloud-based hosting service for git repositories
 - C. A text editor
 - D. A version of Git
-
+### Answer for Q4: B
 ### Q5: What does the git clone <repo_url> command do?
 
 - A. It pushes changes to a remote repository
 - B. It creates a new branch in the local repository
 - C. It clones a remote repository to your local machine
 - D. It pulls changes from a remote repository
+### Answer for Q5: C
