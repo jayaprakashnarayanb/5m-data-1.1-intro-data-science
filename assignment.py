@@ -2,7 +2,7 @@
 
 # Write a function that prints "Fizz" when the number is divisible by 3, "Buzz" when the number is divisible by 5
 # and "FizzBuzz" when the number is divisible by both 3 and 5.
-# If the number is not divisible by either 3 or 5, the function should return the number itself. JP
+# If the number is not divisible by either 3 or 5, the function should return the number itself.
 
 
 def fizz_buzz(number):
@@ -53,8 +53,8 @@ def count_vowels(string):
     >>> count_vowels("aeiou")
     5
     """
-    return
-
+    vowels = "aeiouAEIOU"
+    return sum(1 for char in string if char in vowels)
 
 # Question 4
 
@@ -68,7 +68,9 @@ def count_repeats(string):
     >>> count_repeats("aeiou")
     0
     """
-    return
+    from collections import Counter
+    counts = Counter(string)
+    return sum(count for count in counts.values() if count > 1)
 
 
 if __name__ == "__main__":
