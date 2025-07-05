@@ -2,7 +2,7 @@
 
 # Write a function that prints "Fizz" when the number is divisible by 3, "Buzz" when the number is divisible by 5
 # and "FizzBuzz" when the number is divisible by both 3 and 5.
-# If the number is not divisible by either 3 or 5, the function should return the number itself.
+# If the number is not divisible by either 3 or 5, the function should return the number itself. JP
 
 
 def fizz_buzz(number):
@@ -15,6 +15,14 @@ def fizz_buzz(number):
     >>> fizz_buzz(15)
     'FizzBuzz'
     """
+    if number % 15 == 0:
+        print("'FizzBuzz'")
+    elif number % 3 == 0:
+        print("'Fizz'")
+    elif number % 5 == 0:
+        print("'Buzz'")
+    else:
+        print(number)
     return
 
 
@@ -30,7 +38,7 @@ def sum_of_squares(numbers):
     >>> sum_of_squares([2, 4, 6])
     56
     """
-    return
+    return sum(x * x for x in numbers)
 
 
 # Question 3
